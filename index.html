@@ -3,11 +3,73 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <title>Dashboard</title>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+    </style>
   </head>
 
   <body>
-  
+    <div class="container">
+      <div class="dashboard">
+        <div class="dashboard-header">
+          <img src="logos/dashboard.svg" alt="Dashboard logo" height="35" width="35" style="filter: invert(1)">
+          <p style="font-size: 25px;"><strong>Dashboard</strong></p>
+        </div>
+
+        <div class="dashboard-buttons">
+          <p>Home</p>
+          <p>Profile</p>
+          <p>Messages</p>
+          <p>History</p>
+          <p>Tasks</p>
+          <p>Communities</p>
+
+          <img src="logos/home.svg" alt="Home logo" style="grid-row-start: 1;">
+          <img src="logos/profile.svg" alt="Profile logo" style="grid-row-start: 2;">
+          <img src="logos/messages.svg" alt="Messages logo" style="grid-row-start: 3;">
+          <img src="logos/history.svg" alt="History logo" style="grid-row-start: 4;">
+          <img src="logos/tasks.svg" alt="Tasks logo" style="grid-row-start: 5;">
+          <img src="logos/communities.svg" alt="Communities logo" style="grid-row-start: 6;">
+        </div>
+
+        <div class="settings">
+          <p>Settings</p>
+          <p>Support</p>
+          <p>Privacy</p>
+
+          <img src="logos/settings.svg" alt="Settings logo" style="grid-row-start: 1;">
+          <img src="logos/support.svg" alt="Support logo" style="grid-row-start: 2;">
+          <img src="logos/privacy.svg" alt="Privacy logo" style="grid-row-start: 3;">
+        </div>
+      </div>
+
+      <div class="header">
+        <div class="nav">
+          <img src="logos/search.svg" alt="Magnifying glass" width="20" height="20">
+          <input class="search" type="search">
+        </div>
+
+        <div class="welcome">
+          Hi there, Morgan Oakley (@morgan)
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="projects">
+          <p>Your Projects</p>
+        </div>
+
+        <div class="announcements">
+          <p>Announcements</p>
+        </div>
+
+        <div class="trending">
+          <p>Trending</p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
